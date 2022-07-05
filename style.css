@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    background-image: url(picture/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.align {
+    text-align: center;
+    text-align: ;
+    height: 500px;
+}
+
+.align h1 {
+    font-family: 'Comfortaa', cursive;
+    padding: 90px 0px 0px 0px;
+    font-size: 70px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 40px rgb(0, 0, 0);
+}
+
+.align p {
+    font-size: large;
+    font-weight: 700;
+    background-color: rgba(128, 128, 128, 0.527);
+    margin: 0% 30%;
+    margin-bottom: 5%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: green;
+    font-size: 25px;
+}
