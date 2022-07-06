@@ -103,6 +103,18 @@ h4 {
     padding-top: 30px;
 }
 
+.width-half {
+    display: flex;
+    justify-content: center;
+    background-color: #F0F8FF;
+    align-items: center;
+}
+
+.width-half>div {
+    margin: 10px 70px;
+    padding: 10px 50px;
+}
+
 form {
     background-color: rgb(219, 163, 182);
     padding: 20px;
