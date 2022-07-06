@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    background-color: rgb(233, 217, 217);
 }
 
 .banner {
-    background-image: url(picture/donation9.jpg);
+    background-image: url(picture/topCover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,13 +21,13 @@ body {
     font-size: 70px;
     font-weight: 900;
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 40px rgb(0, 0, 0);
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 
 .align p {
     font-size: large;
     font-weight: 700;
-    background-color: rgba(128, 128, 128, 0.527);
+    background-color: rgba(128, 128, 128, 0.247);
     margin: 0% 30%;
     margin-bottom: 5%;
     color: rgb(255, 255, 255);
@@ -34,6 +35,38 @@ body {
 }
 
 .button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: green;
+    font-size: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Concert One', cursive;
+    margin: 5% 40% 1% 40%;
+}
+
+.p-center {
+    text-align: center;
+    margin: 0% 30% 4% 30%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container>div {
+    margin: 20px;
+    padding: 40px;
+    font-size: 25px;
+}
+
+.donate-button {
     text-decoration: none;
     color: white;
     padding: 10px 20px;
