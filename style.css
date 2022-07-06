@@ -111,14 +111,35 @@ h4 {
 }
 
 .width-half>div {
-    margin: 10px 70px;
+    margin: 20px 70px;
     padding: 10px 50px;
 }
 
+#bg-color {
+    background-color: #F8F8FF;
+}
+
+.width-half h4 {
+    font-size: 30px;
+}
+
+#fontsize {
+    font-size: 30px;
+}
+
+#psize {
+    font-size: 20px;
+}
+
 form {
-    background-color: rgb(219, 163, 182);
+    background-color: #F5F5F5;
     padding: 20px;
     margin: 20px;
+}
+
+form .form-text {
+    color: white;
+    padding: 10px 20px;
 }
 
 footer {
