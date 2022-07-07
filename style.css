@@ -64,6 +64,7 @@ h2 {
     margin: 20px;
     padding: 40px;
     font-size: 25px;
+    box-shadow: 10px 10px 30px lightcoral;
 }
 
 .donate-button {
